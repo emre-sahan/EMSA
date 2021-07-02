@@ -1,0 +1,778 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+      
+}
+
+h1 {
+    font-size: 26px;
+    font-family: 'Poppins';
+}
+
+h2 {
+    font-size: 23px;
+    font-family: 'Poppins';
+    color: #011C26;
+}
+
+h3 {
+    font-size: 21px;
+    font-family: 'Poppins';
+}
+
+h4 {
+    font-size: 19px;
+    font-family: 'Poppins';
+}
+
+h5 {
+    font-size: 17px;
+    font-family: 'Poppins';
+}
+
+h6 {
+    font-size: 16px;
+    font-family: 'Poppins';
+}
+
+#topMenu {
+    background-color: #466673;
+}
+
+#topMenu div {
+    color: #ffffff;
+}
+
+#topMenu a {
+    text-decoration: none;
+    color: #ffffff;
+    padding-left: 15px;
+}
+
+#socialIcon a {
+    padding-left: 20px;
+}
+
+#socialIcon a:hover {
+    color: #DCEEF2;
+    transition: 0, 8s;
+}
+
+.navbar-toggler{
+    background-color:#ffffff;
+}
+
+
+
+
+#navbar ul li a {
+    font-family: 'Poppins'; 
+    font-size: 15px;
+    color: #333333;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#navbar ul li a:hover {
+    color: #859CA6;
+    transition: 0, 6s;
+
+}
+#burger {
+    background-color: #011C26;
+}
+#burgericon{
+    background-color: #DCEEF2;
+}
+form button {
+    margin-left: -5px;
+}
+
+#navbar ul {
+    padding-left: 30px !important;
+}
+
+#anasayfaHakkimda {
+    background-color: #DCEEF2;
+}
+
+.btn-basic {
+    background-color: #DCEEF2;
+    border: 1px solid #859CA6;
+    border-radius: 5px;
+}
+
+.btn-basic:hover {
+    background-color: #011C26;
+    transition: 0, 7s;
+    color: #ffffff;
+}
+
+#anasayfaBlog .card {
+    border: none;
+}
+
+#anasayfaBlog .card-footer {
+    border: none;
+    background-color: #ffffff;
+}
+
+
+#blogtakvim {
+
+    border-bottom: 1px solid lightgrey;
+    color: #466673;
+}
+
+#siteTanitimSlide .carousel-item {
+    height: 500px;
+}
+
+#siteTanitimSlide .carousel-inner img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+    opacity: 20%;
+}
+
+#siteTanitimSlide a {
+    color: #011C26;
+}
+
+
+#referanslar .card {
+    border: none;
+}
+
+#footer {
+    background-color: #011C26;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: left;
+}
+
+#footer a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+#footer a:hover {
+    color: #9CC8D9;
+    transition: 0, 8s;
+}
+
+#footer input {
+    border-radius: 8px;
+    border: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+#altfooter {
+    font-size: 12px;
+}
+
+#bizeulasin a {
+    padding-left: 12px;
+}
+
+/* Hakkımızda sayfası css Start */
+
+#hakkimizdaBanner {
+    background-image: url('../img/hakkımdabanner1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+#hakkimizdabaslik {
+    font-size: 20px;
+    color: #011C26;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+#hakkimizdaBanner h1 {
+    font-size: 36px;
+    color: #011C26;
+    margin-left: 400px;
+    padding-top: 120px !important;
+}
+
+#calisanlar {
+    background-color: #DCEEF2;
+}
+
+#bizdenkareler h2 {
+    color: #011C26;
+}
+
+#hakkimdaslider h5 {
+    color: #011C26;
+}
+
+#hakkimdaslider p {
+    color: #011C26;
+}
+
+#hakkimdaslider .container {
+    padding: 0;
+}
+
+#hakkimdaslider .carousel-item {
+    height: 600px;
+}
+
+#hakkimdaslider .carousel-inner img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+    opacity: 80%;
+
+}
+
+
+/* Hakkımızda sayfası css Finish */
+
+/* Blog Sayfası css Start */
+
+#bloglarBanner {
+    background-image: url(../img/blogbackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    opacity: 100%;
+}
+
+#bloglarBanner h1 {
+    font-size: 36px;
+    color: #011C26;
+    padding-top: 120px;
+}
+
+#blogbaslik {
+    color: #011C26;
+    font-size: 30px;
+}
+
+#blogaciklama {
+    color: #011C26;
+    font-size: 18px;
+}
+
+#bloglarSayfasiBlog .card {
+    border: none;
+}
+
+#bloglarSayfasiBlog .card-footer {
+    background-color: #ffffff;
+}
+
+
+/* Blog Sayfası css Finish */
+
+/* Blog_detay css Start */
+
+
+
+#BlogDetayMainSection .col-md-8 .row {
+    border-bottom: 1px solid lightgray;
+}
+
+#BlogDetayBaslik {
+    background-color: #DCEEF2;
+}
+
+#BlogDetayBaslik h1 {
+    color: #011C26;
+}
+
+#BlogDetayMainSection h2 {
+    color: #011C26;
+    font-size: 20px;
+
+}
+
+#BlogDetayMainSection h3 {
+    color: #011C26;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+#BlogDetayMainSection .col-md-3 {
+    padding-left: 100px;
+}
+
+#BlogDetayMainSection .col-md-3 .row {
+    border-bottom: 1px solid lightgray;
+}
+
+#BlogDetayMainSection .col-md-3 ul {
+    list-style-type: none;
+
+}
+
+#BlogDetayMainSection .col-md-3 ul li {
+    text-align: left;
+    padding-top: 10px;
+
+}
+
+#BlogDetayMainSection .col-md-3 ul li a {
+    color: #466673;
+    font-size: 14px;
+    text-decoration: none;
+
+
+}
+
+#BlogDetayMainSection .col-md-3 ul li a:hover {
+    color: #9CC8D9 !important;
+    transition: 0, 8s;
+}
+
+
+
+
+/* Blog_detay css Finish */
+
+/* Galeri Css Start */
+
+#galeriBanner {
+    background-image: url(../img/galeribg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+#galeriBanner h1 {
+    color: #011C26;
+    font-size: 36px;
+    padding-top: 170px !important;
+}
+
+#imgButtonModal {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+#galeriMainSection h5 {
+    padding-left: 200px;
+}
+
+#galeriMainSection .row {
+    border-bottom: 1px solid #859CA6;
+}
+
+
+/* Galeri Css Finish */
+
+/* Haberler Css Start */
+
+#haberlerBanner {
+    background-image: url(../img/haberlerbg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+
+}
+
+#haberlerBanner h1 {
+    color: #011C26;
+    font-size: 36px;
+    padding-top: 120px;
+}
+
+#haberlerSection img {
+    border-radius: 15px;
+}
+
+#haberlerSection h2 {
+    font-size: 24px;
+}
+
+#haberDetay {
+
+    color: #466673;
+}
+
+
+/* Haberler Css Finish */
+
+/* Haberler -Detay Css Start */
+
+#HaberDetayMainSection .col-md-8 .row {
+    border-bottom: 1px solid lightgray;
+}
+
+#HaberDetayBaslik {
+    background-color: #DCEEF2;
+}
+
+#HaberDetayBaslik h1 {
+    color: #011C26;
+}
+
+#HaberDetayMainSection h2 {
+    color: #011C26;
+    font-size: 23px;
+
+}
+
+#HaberDetayMainSection h3 {
+    color: #011C26;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+#HaberDetayMainSection img {
+    border-radius: 50px;
+}
+
+#HaberDetayMainSection .col-md-3 {
+    padding-left: 100px;
+}
+
+#HaberDetayMainSection .col-md-3 .row {
+    border-bottom: 1px solid lightgray;
+}
+
+#HaberDetayMainSection .col-md-3 ul {
+    list-style-type: none;
+
+}
+
+#HaberDetayMainSection .col-md-3 ul li {
+    text-align: left;
+    padding-top: 10px;
+
+}
+
+#HaberDetayMainSection .col-md-3 ul li a {
+    color: #466673;
+    font-size: 14px;
+    text-decoration: none;
+
+
+}
+
+#HaberDetayMainSection .col-md-3 ul li a:hover {
+    color: #9CC8D9 !important;
+    transition: 0, 8s;
+}
+
+
+
+/* Haberler -Detay Css Finish*/
+
+/* İletişim Css Start */
+#iletisimBanner {
+    background-image: url(../img/iletisimbg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+#iletisimBanner h1 {
+    color: #011C26;
+    font-size: 36px;
+    padding-top: 150px !important;
+}
+
+#formBox {
+    background-color: #DCEEF2;
+    border-radius: 10px;
+}
+
+#altİletisim {
+    background-color: #DCEEF2;
+}
+
+#altİletisim a {
+    text-decoration: none;
+    color: #011C26;
+}
+
+#rightbox {
+    padding-left: 150px;
+}
+
+/* İletişim Css Finish */
+
+/* Hesaplamalar css start */
+
+#hesaplamalarBanner {
+    background-image: url(../img/hesaplamalarbg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+#hesaplamalarBanner h1 {
+    color: #011C26;
+    font-size: 36px;
+    padding-top: 150px !important;
+}
+
+#hesapMakinesi input[type="button"] {
+    display: block;
+    float: left;
+    width: 25%;
+    color: #ffffff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 1px solid #DCEEF2;
+    font-size: 22px;
+
+}
+
+#hesapMakinesi input[type="text"] {
+
+    background-color: #DCEEF2;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-bottom: 5px;
+    font-size: 20px;
+
+}
+
+.btn-calculator {
+    background-color: #011C26;
+}
+
+#hesapİslemleri p{
+    font-size: 18px;
+    font-weight: 500;
+}
+#silindir div {
+    padding-bottom: 15px;
+}
+
+#silindir input {
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 300px;
+}
+
+#silindir button {
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    width: 300px;
+    background-color: #DCEEF2;
+    border: none;
+}
+
+#triangle div {
+    padding-bottom: 15px;
+}
+
+#triangle input {
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 300px;
+}
+
+#triangle button {
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    width: 300px;
+    background-color: #DCEEF2;
+    border: none;
+}
+
+#Circle div {
+    padding-bottom: 15px;
+}
+
+#Circle input {
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 300px;
+}
+
+#Circle button {
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    width: 300px;
+    background-color: #DCEEF2;
+    border: none;
+}
+
+
+
+
+/* Hesaplamalar css Finish */
+
+/* Mobil Düzenleme Start*/
+
+@media (max-width:768px){
+    
+ #scrool{overflow-x: hidden !important;}
+
+    #topMenu .col-md-6 h1{
+        width: 300px!important;
+        margin-left: 50px;
+        text-align: left;
+        padding: top 0;
+    }
+    
+    #topMenu .col-md-2{
+       text-align: center;
+       padding-bottom: 10px;
+    }
+    
+    #slider .container{
+        padding: 0;
+        margin: 0;
+    }
+ #hizmetlerimiz .row .col-md-4{
+     padding: 0;
+     margin: 0;
+     text-align: center;
+ }
+
+ #hizmetlerimiz .row .col-md-4 img{
+    padding: 0;
+    margin: 0;
+ margin-left: -20px;
+}
+
+#hizmetlerimiz .card-text{
+    max-width: 300px;
+    margin-left: 30px;
+}
+ #anasayfaHakkimda h4{
+margin: 0;
+padding: 0;
+margin-top: 20px;
+ }
+
+ #siteTanitimSlide .container {
+     padding: 0;
+     margin: 0;
+ }
+
+ #referanslar .col-md-12 {
+     padding: 0;
+     margin: 0;
+ }
+#referanslar .row .col-md-3 {
+     text-align: center;
+    margin-bottom: 50px;
+    margin-left: 70px;
+}
+#bizdenkareler .row .col-md-3 {
+    padding-bottom: 25px;
+}
+#footer input {
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+#galeriMainSection button img{
+margin-bottom: 30px;
+
+}
+#haberlerSection h2 {
+    padding-top: 20px;
+}
+
+#rightbox {
+    padding: 0;
+    margin: 0;
+
+}
+
+#hakkimizdaBanner h1 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-right: 20px;
+}
+
+#iletisimBanner h1{
+    margin: 0 !important;
+    padding: 0 !important;
+    margin-bottom: 100px!important;
+}
+
+#iletisimBanner {
+    background-image: url(../img/iletisimbg.jpg);
+    background-size: cover;
+    object-fit: contain !important;
+    background-repeat: no-repeat;
+    height: 400px;
+    
+}
+
+#hakkimizdaBanner {
+    background-image: url('../img/hakkımdaresponsive.jpg');
+    background-size: cover;
+    object-fit: contain !important;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+#bloglarBanner {
+    background-image: url('../img/blog-responsive.jpg');
+    background-size: cover;
+    object-fit: contain !important;
+    background-repeat: no-repeat;
+    height: 400px;
+    opacity: 100%;
+}
+#galeriBanner {
+    background-image: url(../img/galeriresponsive.jpg);
+    background-size: cover;
+    object-fit: contain !important;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+#hesaplamalarBanner {
+    background-image: url(../img/hesaplamalarresponsive.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+}
+
+/* Mobil Düzenleme Finish*/
+
+Color Theme Swatches in Hex .Winter-Wonderland-1-hex {
+    color: #011C26;
+}
+
+.Winter-Wonderland-2-hex {
+    color: #466673;
+}
+
+.Winter-Wonderland-3-hex {
+    color: #9CC8D9;
+}
+
+.Winter-Wonderland-4-hex {
+    color: #859CA6;
+}
+
+.Winter-Wonderland-5-hex {
+    color: #DCEEF2;
+}
